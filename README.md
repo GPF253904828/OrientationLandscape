@@ -1,1 +1,3 @@
 # OrientationLandscape
+# 支持某个页面横屏其他页面不可以横屏
+# 包括单个页面设置，和整个UINavigationController下属的ViewControllers的设置,使用基类更为方便
