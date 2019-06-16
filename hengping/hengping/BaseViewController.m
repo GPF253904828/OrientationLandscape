@@ -17,6 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+
+//TabBarController时候
+/*
+
+- (BOOL)shouldAutorotate
+{
+    return [self.selectedViewController shouldAutorotate];
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return [self.selectedViewController supportedInterfaceOrientations];
+}
+*/
 }
 
 - (void)didReceiveMemoryWarning {
